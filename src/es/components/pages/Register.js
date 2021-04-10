@@ -128,7 +128,7 @@ export default class Register extends HTMLElement {
    * @return {HTMLInputElement}
    */
   get passwordField () {
-    return document.querySelector('input[name="password"]')
+    return this.querySelector('input[name="password"]')
   }
 
   get errorMessages () {

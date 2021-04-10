@@ -105,7 +105,7 @@ export default class Login extends HTMLElement {
    *
    */
   get passwordField () {
-    return document.querySelector('input[type=password]')
+    return this.querySelector('input[type=password]')
   }
 
   /**
@@ -113,7 +113,7 @@ export default class Login extends HTMLElement {
    *
    */
   get emailField () {
-    return document.querySelector('input[type=email]')
+    return this.querySelector('input[type=email]')
   }
 
   get errorMessages () {
