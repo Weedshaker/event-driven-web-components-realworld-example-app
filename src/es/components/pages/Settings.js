@@ -144,7 +144,7 @@ export default class Settings extends HTMLElement {
    *
    */
   get emailField () {
-    return document.querySelector('input[name=email]')
+    return this.querySelector('input[name=email]')
   }
 
   /**
@@ -152,14 +152,14 @@ export default class Settings extends HTMLElement {
    *
    */
   get bioField () {
-    return document.querySelector('textarea[name=bio]')
+    return this.querySelector('textarea[name=bio]')
   }
 
   /**
    * @return {HTMLInputElement}
    */
   get passwordField () {
-    return document.querySelector('input[name=password]')
+    return this.querySelector('input[name=password]')
   }
 
   /**
@@ -167,6 +167,6 @@ export default class Settings extends HTMLElement {
    *
    */
   get imageField () {
-    return document.querySelector('input[name=image]')
+    return this.querySelector('input[name=image]')
   }
 }
